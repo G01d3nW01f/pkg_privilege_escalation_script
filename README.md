@@ -1,7 +1,7 @@
 # pkg_privilege_escalation_script
 shellscript for pkg_privilege_escalation
 
-If You getting users_shell in any_server,
+If You getting users shell in any server,
 
 and pressed "sudo -l" then...
     
