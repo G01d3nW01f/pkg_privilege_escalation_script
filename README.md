@@ -17,3 +17,4 @@ usage:
     ./pkg_priv_esc.sh <lhost> <lport>
     
  
+ Don't forget "chmod +x" before execute 
