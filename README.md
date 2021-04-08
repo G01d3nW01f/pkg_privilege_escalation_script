@@ -14,6 +14,6 @@ then exploitable in this script,,, maybe
 
 usage:
     
-    pkg_priv_esc.sh <lhost> <lport>
+    ./pkg_priv_esc.sh <lhost> <lport>
     
  
