@@ -9,7 +9,7 @@ sudo -l
     
     (ALL) NOPASSWD: /usr/sbin/pkg install *
 
-if get situation like a adove, when pressed "sudo -l"
+if get situation like a above, when pressed "sudo -l"
 
 then exploitable in this script,,, maybe
 
