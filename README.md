@@ -20,3 +20,6 @@ usage:
     
  
  Don't forget "chmod +x" before execute 
+
+
+And open other terminal and listenning netcat for reverse_shell
