@@ -45,3 +45,6 @@ www: https://kill.io
 prefix: /
 EOF
 pkg create -m ${STAGEDIR}/ -r ${STAGEDIR}/ -o .
+
+sudo pkg install --no-repo-update *.txz
+
